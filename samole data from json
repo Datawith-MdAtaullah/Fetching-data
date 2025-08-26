@@ -1,0 +1,21 @@
+{
+  "name": "ATM",
+  "details": {
+    "id": "GENE1234",
+    "symbol": "ATM",
+    "conditions": [
+      {
+        "id": "COND001",
+        "name": "Ataxia-telangiectasia"
+      },
+      {
+        "id": "COND002",
+        "name": "Breast cancer"
+      },
+      {
+        "id": "COND003",
+        "name": "Fanconi anemia"
+      }
+    ]
+  }
+}

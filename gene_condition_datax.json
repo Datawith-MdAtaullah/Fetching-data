@@ -1,0 +1,28 @@
+[
+  {
+    "gene": " aladin WD repeat nucleoporin",
+    "conditions": [
+      "Triple A syndrome"
+    ]
+  },
+  {
+    "gene": " ATM serine/threonine kinase",
+    "conditions": [
+      "Ataxia-telangiectasia",
+      "Bladder cancer",
+      "Breast cancer",
+      "Melanoma",
+      "Other cancers"
+    ]
+  },
+  {
+    "gene": " BRCA1, DNA repair associated",
+    "conditions": [
+      "Breast cancer",
+      "Ovarian cancer",
+      "Prostate cancer",
+      "Cholangiocarcinoma",
+      "Other cancers"
+    ]
+  }
+]
