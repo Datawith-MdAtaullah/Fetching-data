@@ -24,13 +24,19 @@ for i in genes:
     for j in data.get("details",{}).get("conditions",[]):
         y = j.get("name")
         if y:
-            conditions.append(y)
+            conditions.append(y)          
+    HPO = []
+    for h in data.get("hpoAssociations", []):
+        HPO_id = h.get("ontologyId")
+        if HPO_id:
+            HPO.append(HPO_id)
     results.append({
         "gene": gene_name,
-        "conditions" : conditions
-    })        
-    
+        "conditions": conditions,
+        "hpoOntologyIds": HPO
+    })
 
+            
 output_file = "gene_condition_datax.json"
 with open (output_file,"w",encoding="utf-8") as f:
     json.dump(results,f,indent = 2)
